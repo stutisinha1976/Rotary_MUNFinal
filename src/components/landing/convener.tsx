@@ -15,7 +15,7 @@ const Convener = () => {
         
 
         {/* Text Section */}
-        <div className="text-lg md:text-xl text-[#000B58] pb-8 flex flex-col items-center lg:items-start font-serif text-justify space-y-4 shadow-lg rounded-xl p-4 w-full lg:w-[60%]">
+        <div className="text-lg md:text-xl text-[#000B58] pb-8 flex flex-col items-center lg:items-start font-serif text-justify space-y-4  rounded-xl p-4 w-full lg:w-[60%]">
           <p>
           Fellow delegates and dignitaries,
 

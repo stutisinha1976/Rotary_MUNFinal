@@ -22,11 +22,11 @@ const About = () => {
         </div>
 
         {/* Text Section */}
-        <div className="text-lg md:text-xl text-[#000B58] font-serif text-justify space-y-4 shadow-lg rounded-xl p-4 w-full lg:w-[60%]">
+        <div className="text-lg md:text-xl text-[#000B58] font-serif text-justify space-y-4  rounded-xl p-4 w-full lg:w-[60%]">
           <p>
             The Forum of Diplomacy is an enthralling platform where passionate individuals take on the role of delegates in the spirited world of diplomacy. Participants engage in discussions, negotiate, and orate their views to find mutually beneficial solutions to pressing modern issues.
           </p>
-          <div className="text-2xl md:text-3xl text-[#003161] font-thin font-serif mt-6">
+          <div className="text-2xl text-center md:text-3xl text-[#003161] font-thin font-serif mt-6">
             All about <span className="text-[#006A67] font-semibold"><u>FOD Model United Nations</u></span>
           </div>
           <div className="text-lg md:text-xl text-[#000B58] font-serif text-justify space-y-4 shadow-lg rounded-xl p-4">

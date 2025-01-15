@@ -1,13 +1,20 @@
 'use client';
 
-import Image from 'next/image'
-import Link from 'next/link'
-
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Nav = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div>
-      <nav className='flex justify-between px-6 bg-[#16423C]'>
+      <nav className="flex justify-between px-6 bg-[#16423C] items-center">
+        {/* Logo */}
         <div>
           <Image
             src="/og_logo.png"
@@ -17,34 +24,49 @@ const Nav = () => {
           />
         </div>
 
-        <div className='flex gap-10 font-serif text-xl font-medium text-[#C4DAD2] items-center mr-16'>
-          <Link href="/" className="hidden lg:block">Home</Link>
-          <Link href="/register" className="hidden lg:block">Register</Link>
-          <Link href="/rotary" className="hidden lg:block">About Rotary</Link>
-          <Link href="/#faq" className="hidden lg:block">Our Team</Link>
-          <Link href="/#faq" className="hidden lg:block">Sponsors</Link>
+        {/* Navigation Links */}
+        <div className="flex gap-10 font-serif text-xl font-medium text-[#C4DAD2] items-center">
+          {/* Desktop Links */}
+          <div className="hidden lg:flex gap-10">
+            <Link href="/">Home</Link>
+            <Link href="/register">Register</Link>
+            <Link href="/rotary">About Rotary</Link>
+            <Link href="/#faq">Our Team</Link>
+            <Link href="/#faq">Sponsors</Link>
+          </div>
 
           {/* Mobile Hamburger Menu */}
-          <div className="lg:hidden flex items-center">
-            <button className="text-3xl text-[#FFF4B7]" onClick={() => {/* Toggle menu */}}>
-              &#9776; {/* Hamburger icon */}
-            </button>
-          </div>
+          <button
+            className="lg:hidden text-3xl text-[#FFF4B7]"
+            onClick={toggleMobileMenu}
+          >
+            {isMobileMenuOpen ? "✖" : "☰"} {/* Toggle between hamburger and close icons */}
+          </button>
         </div>
       </nav>
 
-      {/* Mobile Menu (Hidden by default) */}
-      <div className="lg:hidden hidden">
-        <div className="flex flex-col items-center gap-6 bg-[#000B58] text-[#FFF4B7] py-4">
-          <Link href="/" className="text-xl">Home</Link>
-          <Link href="/#guidelines" className="text-xl">Register</Link>
-          <Link href="/#working" className="text-xl">About Rotary</Link>
-          <Link href="/#faq" className="text-xl">Our Team</Link>
-          <Link href="/#faq" className="text-xl">Sponsors</Link>
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden flex flex-col items-center gap-6 bg-[#000B58] text-[#FFF4B7] py-4">
+          <Link href="/" onClick={toggleMobileMenu} className="text-xl">
+            Home
+          </Link>
+          <Link href="/register" onClick={toggleMobileMenu} className="text-xl">
+            Register
+          </Link>
+          <Link href="/rotary" onClick={toggleMobileMenu} className="text-xl">
+            About Rotary
+          </Link>
+          <Link href="/#faq" onClick={toggleMobileMenu} className="text-xl">
+            Our Team
+          </Link>
+          <Link href="/#faq" onClick={toggleMobileMenu} className="text-xl">
+            Sponsors
+          </Link>
         </div>
-      </div>
+      )}
     </div>
   );
-}
+};
 
 export default Nav;
