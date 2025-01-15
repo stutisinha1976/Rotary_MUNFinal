@@ -1,6 +1,7 @@
 import Nav from "@/components/landing/nav";
 import Content from "@/components/register/content";
 import DelegationTable from "@/components/register/table";
+import Fees from "@/components/register/fees";
 
 export default function Page() {
   return (
@@ -21,6 +22,7 @@ export default function Page() {
           <div className="px-4 md:px-8">
             <Content />
             <DelegationTable />
+            <Fees />
             
           </div>
         </div>
