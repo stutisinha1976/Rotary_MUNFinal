@@ -19,11 +19,11 @@ const Convener = () => {
           <p>
           Fellow delegates and dignitaries,
 
-I warmly welcome you to our Forum of Diplomacy a Model Nations Conference organised by Rotary Club of Bengal Presidency! Scheduled for the 1st-2nd March, 2025 we'll engage in diplomatic discussions, negotiate, and resolve pressing global issues.
+I warmly welcome you to our Forum of Diplomacy a Model Nations Conference organised by Rotary Club of Bengal Presidency! Scheduled for the 1st-2nd March, 2025 we will engage in diplomatic discussions, negotiate, and resolve pressing global issues.
 
 I look forward to witnessing your passion, creativity, and dedication to shaping a brighter future.
 
-Let's make this conference an unforgettable experience! <br/>
+Let us make this conference an unforgettable experience! <br/>
 <br/>
 
 Best regards,<br/>
