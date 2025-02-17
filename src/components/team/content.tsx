@@ -12,7 +12,7 @@ const teamMembers = [
   },
   {
     name: "Arka Kumar Nag",
-    designation: "Convener",
+    designation: "Convenor",
     image: "/convener.jpg",
     social: "",
   },
@@ -125,19 +125,19 @@ const logistics= [ {
   name: "Kaushik Kr Trivedi ",
   designation: "Logistics ",
   image: "/kaushik.webp", // Use actual image path in /public
-social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
+social: " https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
 },
 {
   name: "Rahul Gupta ",
   designation: "Logistics ",
   image: "/rahul.jpg", // Use actual image path in /public
-social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
+social: "https://www.instagram.com/rahulgupta20_11?igsh=MXM5Y2QzaDl3Y3IxZA==",
 },
 {
   name: "Soumojit Sett ",
   designation: "Logistics ",
   image: "/soumojit.jpg", // Use actual image path in /public
-social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
+social: "https://www.instagram.com/souma_.jit?igsh=OXZoYjF4dnZ1cTZp",
 },]
 const graphics= [ {
   name: "Hrisikesh pan  ",
