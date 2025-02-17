@@ -50,12 +50,7 @@ const top4 = [
     image: "/arijit.jpg", // Use actual image path in /public
     social: " https://www.instagram.com/arijitxd?igsh=MTFwb2ozMWNya3lnZA==",
   },
-  {
-    name: "Shrobana Sengupta ",
-    designation: "Equity Officer",
-    image: "/shrobana.jpg", // Use actual image path in /public
-    social: " ",
-  },
+  
 ];
 const content = [
   {
@@ -134,14 +129,14 @@ social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY
 },
 {
   name: "Rahul Gupta ",
-  designation: "External Affairs ",
-  image: "/kaushik.webp", // Use actual image path in /public
+  designation: "Logistics ",
+  image: "/rahul.jpg", // Use actual image path in /public
 social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
 },
 {
-  name: "Kaushik Kr Trivedi ",
-  designation: "External Affairs ",
-  image: "/kaushik.webp", // Use actual image path in /public
+  name: "Soumojit Sett ",
+  designation: "Logistics ",
+  image: "/soumojit.jpg", // Use actual image path in /public
 social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
 },]
 const graphics= [ {
