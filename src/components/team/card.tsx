@@ -19,8 +19,8 @@ const TeamCard = ({ name, designation, image, social }: TeamCardProps) => {
       
       <div className="w-40 h-40 mx-auto mb-4 relative">
         {/* Glaze over the image */}
-        <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
-        <div className="absolute inset-0 overflow-hidden rounded-2xl">
+        <div className="absolute rounded-full inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
+        <div className="absolute inset-0 overflow-hidden rounded-full">
           <div className="absolute top-0 left-[-100%] w-[150%] h-full bg-gradient-to-r from-transparent via-white/40 to-transparent transform rotate-[-30deg] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out z-20"></div>
         </div>
 
