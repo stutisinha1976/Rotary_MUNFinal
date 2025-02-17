@@ -22,12 +22,7 @@ const teamMembers = [
     image: "/advisor.jpg",
     social: "",
   },
-  {
-    name: " Supratim Sarkar",
-    designation: "Financial Advisor",
-    image: "/convener.jpg",
-    social: "",
-  },
+  
   {
     name: " Arinda Sarkar",
     designation: "Logistical Advisor",
@@ -132,6 +127,18 @@ const hospitality= [ {
   social: "https://www.instagram.com/___the_groovy_angel___?igsh=MThvM2R1ZmFxMTBkcw==",
 },]
 const logistics= [ {
+  name: "Kaushik Kr Trivedi ",
+  designation: "Logistics ",
+  image: "/kaushik.webp", // Use actual image path in /public
+social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
+},
+{
+  name: "Rahul Gupta ",
+  designation: "External Affairs ",
+  image: "/kaushik.webp", // Use actual image path in /public
+social: "Instagram- https://www.instagram.com/kaushiktrivedi_?igsh=MXNkOHgxcDMyY2F5dw==",
+},
+{
   name: "Kaushik Kr Trivedi ",
   designation: "External Affairs ",
   image: "/kaushik.webp", // Use actual image path in /public
