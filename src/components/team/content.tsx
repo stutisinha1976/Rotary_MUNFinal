@@ -8,19 +8,19 @@ const teamMembers = [
     name: "Sirsanya Bandopadhyay ",
     designation: "President",
     image: "/president.jpg", // Use actual image path in /public
-    social: "",
+    social: "https://www.facebook.com/share/13vhJZK5t8/",
   },
   {
     name: "Arka Kumar Nag",
     designation: "Convenor",
     image: "/convener.jpg",
-    social: "",
+    social: "https://www.instagram.com/arkaknag?igsh=ODBkYnpkcmt4YzB5",
   },
   {
     name: "Subham Das",
     designation: "Principal Advisor",
     image: "/advisor.jpg",
-    social: "",
+    social: "https://www.instagram.com/itssubhamdas?igsh=OHB2Z2ZxN29iNGZ6",
   },
   
   {
