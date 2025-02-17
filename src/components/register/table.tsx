@@ -5,6 +5,7 @@ const DelegationTable = () => {
   const committees = [
     { name: "United Nations General Assembly - DISEC", modes: "Single Delegation / Double Delegation" },
     { name: "United Nations Human Rights Council (UNHRC)", modes: "Single Delegation" },
+    { name: "World Health Assembly ", modes: "Single Delegation" },
     { name: "Lok Sabha", modes: "Single Delegation / Double Delegation" },
     { name: "International Press (IP)", modes: "Not Applicable (NA)" },
   ];

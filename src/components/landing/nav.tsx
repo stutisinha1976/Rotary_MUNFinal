@@ -31,8 +31,8 @@ const Nav = () => {
             <Link href="/">Home</Link>
             <Link href="/register">Register</Link>
             <Link href="/rotary">About Rotary</Link>
-            <Link href="/#faq">Our Team</Link>
-            <Link href="/#faq">Sponsors</Link>
+            <Link href="/team">Our Team</Link> {/* Fixed route */}
+            <Link href="/sponsors">Sponsors</Link> {/* Fixed route */}
           </div>
 
           {/* Mobile Hamburger Menu */}
@@ -57,12 +57,12 @@ const Nav = () => {
           <Link href="/rotary" onClick={toggleMobileMenu} className="text-xl">
             About Rotary
           </Link>
-          <Link href="/#faq" onClick={toggleMobileMenu} className="text-xl">
+          <Link href="/team" onClick={toggleMobileMenu} className="text-xl">
             Our Team
-          </Link>
-          <Link href="/#faq" onClick={toggleMobileMenu} className="text-xl">
+          </Link> {/* Fixed route */}
+          <Link href="/sponsors" onClick={toggleMobileMenu} className="text-xl">
             Sponsors
-          </Link>
+          </Link> {/* Fixed route */}
         </div>
       )}
     </div>

@@ -6,6 +6,7 @@ import About from "@/components/landing/aboutfod";
 import Carousel from "@/components/landing/carousel";
 import President from "@/components/landing/president";
 import Convener from "@/components/landing/convener";
+import Secgen from "@/components/landing/secgen";
 export default function Page() {
   return (
     <div className="bg-[#E3FEF7]">
@@ -27,6 +28,7 @@ export default function Page() {
           </div>
           <President/>
           <Convener/>
+          <Secgen/>
           <Footer />
         </div>
       </div>

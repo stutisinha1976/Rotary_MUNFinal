@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Perks = () => {
   return (
     <section id="perks">
-      <div className="mt-20 px-4 md:px-12">
+      <div className="mt-20 px-4 md:px-12 flex flex-col items-center">
         {/* Header */}
         <div className="text-center text-2xl md:text-4xl lg:text-5xl text-[#003161] font-thin font-serif">
           Perks of being a part of 
@@ -15,9 +15,9 @@ const Perks = () => {
         </div>
 
         {/* Content Section */}
-        <div className="mt-8 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 justify-center">
+        <div className="mt-8 flex flex-col lg:flex-row items-center lg:items-center justify-center lg:space-x-12">
           {/* Left Section (Perks List) */}
-          <div className="w-full lg:w-1/2 px-6 md:px-10 lg:px-0 mb-8 lg:mb-0">
+          <div className="w-full lg:w-1/2 px-6 md:px-10 lg:px-0 mb-8 lg:mb-0 text-center lg:text-left">
             <ul className="text-sm md:text-lg lg:text-xl text-[#000B58] font-serif list-disc space-y-4">
               <li>Engage in realistic simulations of UN committees, addressing global issues.</li>
               <li>Connect with delegates from diverse backgrounds while enhancing research, public speaking, and negotiation skills.</li>

@@ -28,6 +28,11 @@ const Carousel = () => {
             description: "The United Nations Human Rights Council seeks to discuss the essential topic of human rights. Delegates are to negotiate on matters involving fundamental rights and take precautions against violations on the mandate.",
             image: "unhcr.jpg",
         },
+        {
+            title: "World Health Assembly",
+            description: "World Health Assembly is the decision-making body of the World Organization (WHO), where representatives from member states meet annually to discuss global health issues, set policies, and work on strategies for improving public health worldwide. It’s where major health-related decisions are made, including resolutions on global health threats, funding, and the direction of WHO initiatives.",
+            image: "WHA.jpg",
+        },
     ];
 
     return (
@@ -57,7 +62,7 @@ const Carousel = () => {
                                 <img
                                     src={card.image}
                                     alt={card.title}
-                                    className="w-full md:w-60 h-60 rounded-3xl md:ml-10 p-4 object-cover"
+                                    className="w-full md:w-60 h-70 rounded-3xl p-4 "
                                 />
                                 <div className="p-4 text-center md:text-left">
                                     <h3 className="text-xl font-serif md:text-2xl font-semibold text-[#16423C]">
