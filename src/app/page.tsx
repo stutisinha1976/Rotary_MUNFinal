@@ -1,3 +1,4 @@
+'use client'
 import Nav from "@/components/landing/nav";
 import Register from "@/components/landing/register";
 import Footer from "@/components/landing/footer";
@@ -7,6 +8,7 @@ import Carousel from "@/components/landing/carousel";
 import President from "@/components/landing/president";
 import Convener from "@/components/landing/convener";
 import Secgen from "@/components/landing/secgen";
+import Button from "@/components/ebmembers/button";
 export default function Page() {
   return (
     <div className="bg-[#E3FEF7]">
@@ -23,6 +25,7 @@ export default function Page() {
           <Register />
           <About />
           <Carousel />
+          <Button />
           <div className="">
           <Perks />
           </div>
