@@ -65,7 +65,7 @@ const unga = [{
   },
   {
     name: "Aparna Ishweri ",
-    designation: "Co-Vice Chairperson",
+    designation: "Co-Chairperson",
     image: "/aparnawha.jpg", 
     social: "", 
   },
