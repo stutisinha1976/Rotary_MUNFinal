@@ -9,7 +9,7 @@ const unga = [{
     social: "", 
   },
   {
-    name: "Swapneel Dutta ",
+    name: "Swapnaneel Dutta ",
     designation: "Co-Chairperson",
     image: "/swapnaneelunga.jpg", 
     social: "", 
@@ -57,19 +57,7 @@ const unga = [{
     image: "/akashdeephrc.jpg", 
     social: "", 
   }];
-  const wha = [{
-    name: "Sayanabha Chandra",
-    designation: "Co-Chairperson",
-    image: "/sayanabhaunga.jpg", 
-    social: "", 
-  },
-  {
-    name: "Aparna Ishweri ",
-    designation: "Co-Chairperson",
-    image: "/aparnawha.jpg", 
-    social: "", 
-  },
-  ];
+  
   const ip = [{
     name: "Sweta Sahoo",
     designation: "Head of International Press",
@@ -116,15 +104,7 @@ const unga = [{
           <TeamCard key={index} {...member} />
         ))}
         </div>
-        <h2 className="text-3xl mt-12 md:text-3xl text-[#003161] font-thin font-serif ">
-         <span className="text-[#003161]"><span className='font-bold'>World Health Assembly</span><br/> </span>
-      </h2>
-      {/* Team Members Section */}
-      <div className="mt-10 flex flex-wrap justify-center gap-6">
-        {wha.map((member, index) => (
-          <TeamCard key={index} {...member} />
-        ))}
-        </div>
+       
         <h2 className="text-3xl mt-12 md:text-3xl text-[#003161] font-thin font-serif ">
          <span className="text-[#003161]"><span className='font-bold'>International Press</span><br/> </span>
       </h2>

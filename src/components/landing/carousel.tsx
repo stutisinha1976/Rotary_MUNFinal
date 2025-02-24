@@ -28,11 +28,7 @@ const Carousel = () => {
             description: "The United Nations Human Rights Council seeks to discuss the essential topic of human rights. Delegates are to negotiate on matters involving fundamental rights and take precautions against violations on the mandate.",
             image: "unhcr.jpg",
         },
-        {
-            title: "World Health Assembly",
-            description: "World Health Assembly is the decision-making body of the World Organization (WHO), where representatives from member states meet annually to discuss global health issues, set policies, and work on strategies for improving public health worldwide. It’s where major health-related decisions are made, including resolutions on global health threats, funding, and the direction of WHO initiatives.",
-            image: "WHA.jpg",
-        },
+        
     ];
 
     return (
