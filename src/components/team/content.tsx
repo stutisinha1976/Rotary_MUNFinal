@@ -173,7 +173,7 @@ const Content = () => {
         ))}
       </div>
       <h2 className="text-3xl mt-12 md:text-3xl text-[#003161] font-thin font-serif ">
-         <span className="text-[#003161]">Top 3 Board Members</span>
+         <span className="text-[#003161]">Top 4 Board Members</span>
       </h2>
       <div className="mt-10 flex flex-wrap justify-center gap-6">
        
