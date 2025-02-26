@@ -37,6 +37,12 @@ const top4 = [
     image: "/secgen.jpg", // Use actual image path in /public
     social: "https://www.instagram.com/_s.m.o.k.e.s.c.r.e.e.n_/",
   },
+  {
+    name: "Roshnai Sen ",
+    designation: "Deputy Secretary General",
+    image: "/depsec.jpg", // Use actual image path in /public
+    social: "https://www.instagram.com/roshnai_sen?igsh=dmRlbXhka25uYzR5",
+  },
 
   {
     name: "Rajdeep Mondal ",
